@@ -8,7 +8,7 @@ def isMovesLeft(board) :
 
 	for i in range(3) :
 		for j in range(3) :
-			if (board[i][j] == '_') :
+			if (board[i][j] == '_'):
 				return True
 	return False
 
@@ -157,7 +157,7 @@ def findBestMove(board) :
 board = [
 	[ 'x', 'o', 'x' ],
 	[ 'o', 'o', 'x' ],
-	[ '', '', '_' ]
+	[ '_', '_', '_' ]
 ]
 
 bestMove = findBestMove(board)
